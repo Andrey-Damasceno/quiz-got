@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Game of Thrones</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1 id="topo">Quiz Game of Thrones</h1>
+    <h2><strong><em>Bem-Vindo ao mundo de Westeros! Pronto para o quiz da melhor série de todos os tempos?</em></strong></h2>
+    </header>
+    <main>
+    <h2 style="margin-top: 0; text-align: center;">Sobre o Quiz:</h2>
+        <h4 style="text-align: center;"><strong>Este quiz testará seu conhecimento sobre a série <abbr title="Game of Thrones">GOT</abbr> Como um <em>grande fã da série</em> criei esse quiz interativo, também como atividade de um curso de <abbr title="HyperText Markup Language">HTML</abbr> que estou estudando. Confira se você é realmente um fã de Westeros. <em>Não vale colar hein!</strong><h4>
+        <p style=" text-align: center; margin-top: 0rem; margin-bottom: 0rem;">[<a href="https://www.hbomax.com/br/pt/shows/game-of-thrones/4f6b4985-2dc9-4ab6-ac79-d60f0860b0ac" target="_blank" class="fora"><em>assista novamente</em></a>] [<a href="#tabela" class="topo"><em>Tabela de acertos</em></a>]</p>
+    <h2> 1º Pergunta: Quem empurrou Bran Stark da Torre em Winterfell?</h2>
+    <form>
+        <input type="radio" name="pergunta1" value="Jaime Lannister" id="p1a"><label for="p1a">Jaime Lannister</label><br>
+        <input type="radio" name="pergunta1" value="Tyrion Lannister" id="p1b"><label for="p1b">Tyrion Lannister</label><br>
+        <input type="radio" name="pergunta1" value="Cersei Lannister" id="p1c"><label for="p1c">Cersei Lannister</label><br>
+        <input type="radio" name="pergunta1" value="Rei Joffrey" id="p1d"><label for="p1d">Rei Joffrey</label><br>
+    <h2> 2º Pergunta: Qual é o nome do lobo gigante de Jon Snow?</h2>
+        <input type="text" name="pergunta2" id="p2" placeholder="Escreva aqui sua resposta...">
+    <h2> 3º Pergunta: Qual lema tinha a casa Stark?</h2>
+        <input type="text" name="pergunta3" id="p3" placeholder="Escreva aqui sua resposta...">
+    <h2> 4º Pergunta: Quantos dragões Daenerys tinha?</h2>
+        <select name="pergunta4" id="p4">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+    <h2> 5º Pergunta: Escreva o nome de outra casa não mencionada aqui no quiz</h2>
+        <input type="text" name="pergunta5" id="p5" placeholder="Escreva aqui sua resposta...">
+    <h3><strong>O que você está achando do quiz? Não esqueça do [<a href="#feedback" class="topo">feedback</a>] no fim da página!</strong></h3>
+    <h2> 6º Pergunta: Quem é chamado de "Duende"?</h2>
+        <input type="checkbox" name="pergunta6" value="Theon Greyjoy" id="p6a"><label for="p6a">Theon Greyjoy</label><br>
+        <input type="checkbox" name="pergunta6" value="Robb Stark" id="p6b"><label for="p6b">Robb Stark</label><br>
+        <input type="checkbox" name="pergunta6" value="Cercei Lannister" id="p6c"><label for="p6c">Cercei Lannister</label><br>
+        <input type="checkbox" name="pergunta6" value="Tyrion Lannister" id="p6d"><label for="p6d">Tyrion Lannister</label><br>
+    <h2> 7º Pergunta: Quem é nessa animação?</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbZol1-SNv9P96ThSXWr4RVxo63i3LV2D0cA&s" alt="Foto do Robb Stark"><br>
+        <input type="text" name="pergunta7" id="p7" placeholder="Escreva aqui sua resposta...">
+    <h2> 8º Pergunta: Qual dessas personagens NÃO é uma Targaryen?</h2>
+        <input type="radio" name="pergunta8" value="Daenerys" id="p8a"><label for="p8a">Daenerys</label><br>
+        <input type="radio" name="pergunta8" value="Rhaenyra" id="p8b"><label for="p8b">Rhaenyra</label><br>
+        <input type="radio" name="pergunta8" value="Visenya" id="p8c"><label for="p8c">Visenya</label><br>
+        <input type="radio" name="pergunta8" value="Cersei" id="p8d"><label for="p8d">Cersei</label><br>
+    <h2> 9º Pergunta: Qual é o nome do pai de Arya Stark?</h2>
+        <input type="text" name="pergunta9" id="p9" placeholder="Escreva aqui sua resposta...">
+    <h2> 10º Pergunta: Qual dessas cidades NÃO faz parte dos Sete Reinos?</h2>
+        <input type="radio" name="pergunta10" value="Porto Real" id="p10a"><label for="p10a">Porto Real</label><br>
+        <input type="radio" name="pergunta10" value="Ponta Tempestade" id="p10b"><label for="p10b">Ponta Tempestade</label><br>
+        <input type="radio" name="pergunta10" value="Lannisporto" id="p10c"><label for="p10c">Lannisporto</label><br>
+        <input type="radio" name="pergunta10" value="Braavos" id="p10d"><label for="p10d">Braavos</label><br>
+    </form>
+    <h2>Chegamos ao fim do quiz, espero que você tenha se divertido. Confira a tabela de acertos do quiz:</h2>
+    <table border="1" id="tabela">
+        <tr>
+            <th>Quantidade de Acertos</th>
+            <th>Resultado</th>
+        </tr>
+        <tr>
+            <td>0-3</td>
+            <td>Iniciante em Westeros</td>
+        </tr>
+        <tr>
+            <td>4-7</td>
+            <td>Conselheiro do Reino</td>
+        </tr>
+        <tr>
+            <td>8-10</td>
+            <td>Corvo de 3 Olhos</td>
+        </tr>
+    </table>
+    <h2>Verifique suas Respostas</h2>
+    <details>
+        <summary><strong>Clique aqui para ver as respostas corretas</strong></summary>
+        <ol>
+            <li>Jaime Lannister</li>
+            <li>Ghost(Fantasma)</li>
+            <li>O Inverno Está Chegando</li>
+            <li>3</li>
+            <li>Qualquer outra casa válida (ex: Tully, Arryn, Martell, etc.)</li>
+            <li>Tyrion Lannister</li>
+            <li>Robb Stark</li>
+            <li>Cersei</li>
+            <li>Eddard (Ned) Stark</li>
+            <li>Braavos</li>
+        </ol>
+    </details>
+    <h2 id="feedback">Nos dê seu feedback!</h2>
+    <form id="feedback-form">
+    <fieldset>
+        <legend><strong>Descrição</strong></legend>
+        <h4 style="font-size: 1.0rem; margin-bottom: 1.7rem; color: #FFFFFF"><strong>Me diga o que você achou deste meu quiz, e um viva há, Rainha Daenerys Targaryen,<br> a Incomparável, a Primeira de Seu Nome, Rainha dos Ândalos,<br> dos Rhoynar e dos Primeiros Homens, Senhora dos Sete Reinos e Protetora do Reino.</strong></h4>
+        <input type="text" name="Nome" id="nome" placeholder="Seu nome..."><br>
+        <input type="email" name="Email" id="email" placeholder="Seu email..."><br>
+        <textarea name="mensagem" id="mensagem" rows="4" cols="50" placeholder="Escreva seu feedback aqui..."></textarea><br>
+    <div id="avaliacao">
+        <span class="estrela" data-valor="1">★</span>
+        <span class="estrela" data-valor="2">★</span>
+        <span class="estrela" data-valor="3">★</span>
+        <span class="estrela" data-valor="4">★</span>
+        <span class="estrela" data-valor="5">★</span>
+    </div>
+
+        <button type="submit" id="btn-enviar">Enviar...</button>
+        <p id="status-msg"></p>
+
+    </fieldset>
+    </form>
+    </main>
+<footer>
+    <h5 class="h5">&copy Desenvolvido por Andrey Damasceno de Souza - 17/01/2026</h5>
+    <h5 class="h5"><a href="https://github.com/Andrey-Stark" target="_blank" class="fora">Veja meu Github Também</a></h5>
+    <h5 class="h5"><a href="#topo" class="topo"><strong>Volte ao Topo</strong></a></h5>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<!-- Seu JavaScript (DEPOIS) -->
+    <script src="script.js"></script>
+</body>
+</html>
